@@ -1,7 +1,7 @@
 <h3> Noughts and Crosses (A laravel package)</h3>
 
 <p>
-  This is a package creation test, it contains some logic that mimics a simple "Nought and Crosses" game.
+  This is a package creation test, it contains some logic that mimics a simple "Noughts and Crosses" game.
 </p>
 
 <p>
