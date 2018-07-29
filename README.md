@@ -6,7 +6,7 @@
 
 <p>
 
-Use, composer require superme2018/noughts-and-crosses to add to yur project.
+Use, <strong>composer require superme2018/noughts-and-crosses</strong> to add to your project.
 
 </p>
 
