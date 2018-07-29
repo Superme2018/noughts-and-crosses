@@ -2,7 +2,7 @@
     "name": "superme2018/noughts-and-crosses",
     "description": "A test package for laravel, holds a basic version of the noughts and crosses game.",
     "type": "library",
-    "license": "no",
+    "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
