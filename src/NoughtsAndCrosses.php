@@ -51,7 +51,7 @@ class NoughtsAndCrosses
         // Create the first move if the file $this->movesFileName does not exist.
         if(!Storage::disk($this->diskName)->exists($this->movesFileName)){
             Storage::disk($this->diskName)->put($this->movesFileName, collect([$moveData]));
-            return;
+            return Storage::disk($this->diskName)->get($this->movesFileName);
         }
 
         // Get and Set the player moves form storage.
