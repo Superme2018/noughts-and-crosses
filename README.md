@@ -18,8 +18,8 @@ use SuperMe2018\NoughtsAndCrosses\NoughtsAndCrosses;
 // Player move array format (can take player 1 or player 2) <br>
 $playerMove = ["playerId" => 1, "moveId" => 4];
 
-// Instance and usage.
-$noughtsAndCrosses = new NoughtsAndCrosses(); <br>
+// Instance and usage.<br>
+$noughtsAndCrosses = new NoughtsAndCrosses(); 
 return $noughtsAndCrosses->makeMove($playerMove);
 
 </p>
