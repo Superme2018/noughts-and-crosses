@@ -19,7 +19,7 @@ use SuperMe2018\NoughtsAndCrosses\NoughtsAndCrosses;
 $playerMove = ["playerId" => 1, "moveId" => 4];
 
 // Instance and usage.<br>
-$noughtsAndCrosses = new NoughtsAndCrosses(); 
+$noughtsAndCrosses = new NoughtsAndCrosses();<br>
 return $noughtsAndCrosses->makeMove($playerMove);
 
 </p>
