@@ -12,7 +12,7 @@ Use, <strong>composer require superme2018/noughts-and-crosses</strong> to add to
 
 <p>
 
-// <strong>Namescae to import into controller and or class:</strong> <br>
+// <strong>Namespace to import into controller and or class:</strong> <br>
 use SuperMe2018\NoughtsAndCrosses\NoughtsAndCrosses;
 
 // <strong>Player move array format (can take player 1 or player 2)</strong> <br>
