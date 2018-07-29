@@ -12,13 +12,13 @@ Use, <strong>composer require superme2018/noughts-and-crosses</strong> to add to
 
 <p>
 
-// Namescae to import into controller and or class: <br>
+// <strong>Namescae to import into controller and or class:</strong> <br>
 use SuperMe2018\NoughtsAndCrosses\NoughtsAndCrosses;
 
-// Player move array format (can take player 1 or player 2) <br>
+// <strong>Player move array format (can take player 1 or player 2)</strong> <br>
 $playerMove = ["playerId" => 1, "moveId" => 4];
 
-// Instance and usage.<br>
+// <strong>Instance and usage.</strong><br>
 $noughtsAndCrosses = new NoughtsAndCrosses();<br>
 return $noughtsAndCrosses->makeMove($playerMove);
 
