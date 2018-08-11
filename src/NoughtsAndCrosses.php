@@ -68,7 +68,7 @@ class NoughtsAndCrosses
             return "This move has already been made.";
 
         // Third check to detect if the last move made, was made by the same player.
-        if($this->checkPlayerMove((int)$moveData["playerId"])) //<- Really no need for the collect, it's just to keep things consistent.
+        if($this->checkPlayerMove((int)$moveData["playerId"]))
             return "Next player please.";
 
         // Add the new move to the $this->movesFileName.
