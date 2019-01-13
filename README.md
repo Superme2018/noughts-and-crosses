@@ -22,6 +22,10 @@ $playerMove = ["playerId" => 1, "moveId" => 4];
 $noughtsAndCrosses = new NoughtsAndCrosses();<br>
 return $noughtsAndCrosses->makeMove($playerMove);
 
+or  
+
+(new NoughtsAndCrosses)->makeMove(($playerMove);  
+
 </p>
 
   
